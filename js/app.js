@@ -4,6 +4,7 @@ function adicionar(){
     let amigo = document.getElementById('nome-amigo');
     if (amigo.value == '') {
         alert('Informe o nome do amigo')
+        return
     }
     let lista = document.getElementById('lista-amigos');
     amigos.push(amigo.value)
